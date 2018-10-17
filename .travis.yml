@@ -12,6 +12,6 @@ after_success:
 - .travis/after_success.sh
 env:
     global:
-    - REPO="git@github.com:RedHatInsights/insights-frontend-starter-app-build"
-    - REPO_DIR="insights-frontend-starter-app-build"
+    - REPO="git@github.com:RedHatInsights/subscriptions-build"
+    - REPO_DIR="subscriptions-build"
     - BRANCH=${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}
