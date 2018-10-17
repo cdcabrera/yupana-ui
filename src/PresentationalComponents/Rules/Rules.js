@@ -10,8 +10,8 @@ const Rules = () => {
         <React.Fragment>
             <h1>Rules</h1>
             <Switch>
-                <Route exact path='/advisor/rules' component={ ListRules } />
-                <Route path='/advisor/rules/:id' component={ ViewRule } />
+                <Route exact path='/subscriptions/rules' component={ ListRules } />
+                <Route path='/subscriptions/rules/:id' component={ ViewRule } />
             </Switch>
         </React.Fragment>
     );
